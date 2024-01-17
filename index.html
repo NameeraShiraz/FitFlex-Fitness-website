@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFlex</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Montserrat:wght@300;500;600;700&family=Open+Sans:wght@600&family=Outfit:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" ><img src="brand1.png" width="130px" height="50px" alt="Bootstrap" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="workout.html">Workouts</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="workout.html">Workouts</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="BMI.html">BMI Calculator</a></li>
+                  <li><a class="dropdown-item" href="calorie.html">Calorie Calculator</a></li>
+                  <li><a class="dropdown-item" href="progress.html">Goals</a></li>
+                  <li><a class="dropdown-item" href="contact.html"> Socials</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+   
+    <div class="home_bg"></div>
+    <div class="home_content">
+          <p class="h_bold">reach your goals </p>
+            <div class="anim">
+              <p class="h_light">with</p>
+                <div class="waviy">
+               
+                  <span style="--i:1">F</span>
+                  <span style="--i:2">i</span>
+                  <span style="--i:3">t</span>
+                  <span style="--i:4">F</span>
+                  <span style="--i:5">l</span>
+                  <span style="--i:6">e</span>
+                  <span style="--i:7">x</span>
+                  <span style="--i:8">.</span>
+                </div>
+             
+            </div>
+            <p class="h_p">You may not be there yet, but you are closer to your future than you were yesterday</p>
+      </div>
+      <a href="info.html"><button class="button"> KNOW MORE</button></a>
+
+      <div class="beige">
+        <p class="beige_h .hidden" >The Best way to get back in shape and stay fit</p>
+        <p class="beige_fill .hidden"> Consistent Exercise And Healthy Food!</p>
+      </div>
+
+      <div class="steps">
+        <p class="steps_h">Hit your goals in 3 simple steps</p>
+      </div>
+
+      <div class="step_1">
+        <a href="calorie.html"><img class="step_13" src="step1.png" height="650px" width="550px"/></a>
+        <div class="step_container step1_container">
+          <p class="step_c1">1</p>
+          <p class="step_c2">track calories, food & fitness</p>
+          <p class="step_c3">Monitoring the calorie intake is the key to weight management</p>
+        </div>
+      </div>
+
+      <div class="step_2" style="margin-top: -85px;">
+        <div class="step_container step2_container">
+          <p class="step_c1 step2_c">2</p>
+          <p class="step_c2 step2_c">do the right workouts</p>
+          <p class="step_c3 step2_c">Doing the right workouts is key to getting the results that we desire</p></div>
+          <a href="workout.html"><img class="step_12" src="step2.png" height="650px" width="550px"/></a>
+      </div>
+
+      <div class="step_1" style="margin-top: -85px;">
+        <a href="progress.html"><img class="step_13" src="step3.png" height="650px" width="550px"/></a>
+        <div class="step_container step1_container step3_container">
+          <p class="step_c1">3</p>
+          <p class="step_c2">change habits and hit the goal</p>
+          <p class="step_c3">Now you have the tools and knowledge to build healthy habits for life</p>
+        </div>
+      </div>
+
+      <div class="bmi_bg">
+          <div class="bmi_bg2">
+            <p>Let’s Check Your </p>
+            <p id="bmi_bmi">BMI</p>
+            <div class="bmi_button2">
+              <a style="text-decoration: none;" href="BMI.html"><button class="bmi_button">I’m Ready!</button></a>
+            </div>
+          </div>
+      </div>
+      <div >
+        <p class="steps_h">which routine is right for you?</p>
+        <div class="work_category w_c1">
+          <section id="card1" class="card" style="height: 400px; width: 700px;">
+            <img src="work_1.png"/>
+            <a style="text-decoration: none; color: aliceblue;"  href="workout.html"><div class="card__content">
+              <p class="card__title">Cardio</p>
+              <p class="card__description">
+                Cardiovascular workouts, often referred to as cardio, focus on elevating your heart rate to enhance your cardiovascular endurance. These workouts are great for burning calories and improving lung capacity. Popular examples of cardio exercises include running, cycling, swimming and jumping rope, among others. These activities get your heart pumping and help you shed those extra pounds while boosting your energy levels.
+              </p>
+            </div></a>
+          </section>
+        </div>
+        <div class="work_category ">
+          <section id="card1" class="card" style="height: 400px; width: 700px;">
+            <img src="work_2.png"/>
+            <a style="text-decoration: none; color: aliceblue;"  href="workout.html"><div class="card__content">
+              <p class="card__title">Strength Training</p>
+              <p class="card__description">
+                Streng training involves exercises designed to increase your muscle strength and mass. This type of workout is crucial for overall functional fitness promoting muscle maintenance as you age. Traditional strength training often involves lifting weights or using resistance machines at the gym. Bodyweight exercises like push-ups, squats and planks are also effective for building strength. Incorporating these various types of strength training into your fitness routine can increase your metabolic rate and improve your overall health.
+              </p>
+            </div></a>
+          </section>
+        </div>
+        <div class="work_category ">
+          <section id="card1" class="card" style="height: 400px; width: 700px;">
+            <img src="work_3.png"/>
+            <a style="text-decoration: none; color: aliceblue;"  href="workout.html"><div class="card__content">
+              <p class="card__title">HIIT</p>
+              <p class="card__description">
+                For those with a busy schedule, High-Intensity Interval Training (HIIT) is a game-changer. HIIT exercises involve short bursts of intense movements followed by brief periods of rest or low-intensity activity. This approach not only saves time but also boosts your metabolism, helping you burn calories even after your workout is done. Exercises like burpees, sprints and kettlebell swings are often included in HIIT routines.
+              </p>
+            </div></a>
+          </section>
+        </div>
+        <div class="work_category ">
+          <section id="card1" class="card" style="height: 400px; width: 700px;">
+            <img src="work_4n.png"/>
+            <a style="text-decoration: none; color: aliceblue;"  href="workout.html"><div class="card__content">
+              <p class="card__title">Flexebility And Balance Workouts</p>
+              <p class="card__description">
+                Cardiovascular workouts, often referred to as cardio, focus on elevating your heart rate to enhance your cardiovascular endurance. These workouts are great for burning calories and improving lung capacity. Popular examples of cardio exercises include running, cycling, swimming and jumping rope, among others. These activities get your heart pumping and help you shed those extra pounds while boosting your energy levels.
+              </p>
+            </div></a>
+          </section>
+        </div>
+        <div class="work_category ">
+          <section id="card1" class="card" style="height: 400px; width: 700px;">
+            <img src="work_5.png"/>
+            <a style="text-decoration: none; color: aliceblue;"  href="workout.html"><div class="card__content">
+              <p class="card__title">Bodyweight Workouts</p>
+              <p class="card__description">
+                If you prefer working out without any equipment, bodyweight workouts are a great option. These exercises utilize your body’s weight as resistance, making them convenient to do anywhere, anytime. Bodyweight workouts include push-ups, squats, lunges and planks. They help you build strength while improving your balance and flexibility.
+              </p>
+            </div></a>
+          </section>
+        </div>
+        <div class="cal_div">
+          <div class="cal_pic">
+            <img src="cal1.png" height="200px" width="150px"/>
+            <img src="cal2.png" width="220px" height="360px"/>
+            <img src="cal3.png" height="200px" width="150px"/>
+          </div>
+          <div class="cal_content">
+            <p class="step_c2 step_c2c">Know required calories</p>
+            <p class="step_c3 step_c3c">the amount of daily calories you need depends on your age, sex, height and activity level</p>
+            <a style="text-decoration: none;" href="calorie.html"><button class="cal_button">
+              <b>I'm Ready!</b>
+          </button></a>
+          </div>
+        </div>
+        <div class="abt_div" id="abt_section" >
+          <div class="abt_p ">
+            <p class="step_c2 abt_p1">About FitFlex</p>
+            <p class="step_c3 abt_p2">FitFlex is a dynamic fitness website dedicated to fostering a healthy lifestyle by advocating the combination of appropriate workout routines and nutritious food choices. 
+
+              Through a wealth of resources, including exercise demonstrations, meal plans, articles, and tracking tools, FitFlex aims to inspire and guide users towards a balanced and sustainable approach to health and wellness.
+             </p>
+          </div>
+          <div class="abt_i">
+            <img src="abt.png"/>
+          </div>
+        </div>
+          </div>
+      </div>
+      <div class="footer_div">
+      <div class="container foot_container ">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 text-light border-top ">
+          <div class="col mb-3">
+            <a href="#" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <img src="brand1.png" width="150px"/>
+            </a>
+            <p class="text-light"> Start your fitness journey today!</p>
+            <p class="text-light"> © 2023</p>
+          </div>
+      
+          <div class="col mb-3 text-light">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Quick Navs</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class=" p-0 text-light" style="text-decoration:none">Home</a></li>
+              <li class="nav-item mb-2"><a href="about.html" class=" p-0 text-light" style="text-decoration:none">About</a></li>
+              <li class="nav-item mb-2"><a href="contact.html" class="p-0 text-light" style="text-decoration:none">Contact</a></li>
+              <li class="nav-item mb-2"><a href="workout.html" class="p-0 text-light" style="text-decoration:none">Workouts</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Fitness check</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="BMI.html" class="p-0 text-light" style="text-decoration:none">BMI Calculator</a></li>
+              <li class="nav-item mb-2"><a href="calorie.html" class="p-0 text-light" style="text-decoration:none">Calorie Calculator</a></li>
+              <li class="nav-item mb-2"><a href="progress.html" class="p-0 text-light" style="text-decoration:none">Goals</a></li>
+              <li class="nav-item mb-2"><a href="info.html" class="p-0 text-light" style="text-decoration:none">More info</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3" id="socials_section">
+            <h5>Socials</h5>
+            <div class="social_div">
+              <a href="http://t.me/Nameera_Shiraz"><svg width="30" height="20" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="mingcute:telegram-fill" clip-path="url(#clip0_78_244)">
+              <g id="Group">
+              <path id="tele" fill-rule="evenodd" clip-rule="evenodd" d="M32.1377 5.35287C32.5392 5.2272 32.9788 5.18385 33.4105 5.22735C33.8423 5.27085 34.2504 5.3996 34.5925 5.6002C34.9347 5.80081 35.1982 6.06593 35.3558 6.36797C35.5133 6.67002 35.5591 6.99795 35.4884 7.31762L31.8029 23.9407C31.4454 25.5441 29.0794 26.4637 27.1018 25.665C25.4475 24.9967 22.9905 23.9672 20.7805 22.893C19.6755 22.3553 16.2907 20.6335 16.7067 19.4082C17.0642 18.3606 22.7517 14.4238 26.0017 12.0833C27.2773 11.1637 26.6955 10.6333 25.1892 11.4791C21.4484 13.5792 15.4424 16.7728 13.4567 17.6718C11.7049 18.4645 10.7917 18.5998 9.69967 18.4645C7.70742 18.218 5.8598 17.8362 4.3518 17.371C2.31405 16.7426 2.41317 14.6595 4.35017 14.0529L32.1377 5.35287Z" fill="#F8F8F8"/>
+              </g>
+              </g>
+              <defs>
+              <clipPath id="clip0_78_244">
+              <rect width="39" height="29" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg></a>
+
+              <a href="https://instagram.com/nameera_shiraz?igshid=YTQwZjQ0NmI0OA== "><svg width="30" height="20" viewBox="0 0 41 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="mdi:instagram">
+                <path id="Vector" d="M13.325 2.6665H27.675C33.1416 2.6665 37.5833 6.13317 37.5833 10.3998V21.5998C37.5833 23.6508 36.5394 25.6178 34.6812 27.0681C32.823 28.5184 30.3028 29.3332 27.675 29.3332H13.325C7.85829 29.3332 3.41663 25.8665 3.41663 21.5998V10.3998C3.41663 8.34883 4.46054 6.38183 6.31871 4.93154C8.17688 3.48126 10.6971 2.6665 13.325 2.6665ZM12.9833 5.33317C11.3522 5.33317 9.78793 5.83888 8.63459 6.73906C7.48124 7.63923 6.83329 8.86013 6.83329 10.1332V21.8665C6.83329 24.5198 9.58371 26.6665 12.9833 26.6665H28.0166C29.6477 26.6665 31.212 26.1608 32.3653 25.2606C33.5187 24.3604 34.1666 23.1395 34.1666 21.8665V10.1332C34.1666 7.47984 31.4162 5.33317 28.0166 5.33317H12.9833ZM29.4687 7.33317C30.0351 7.33317 30.5782 7.50877 30.9787 7.82133C31.3791 8.13389 31.6041 8.55781 31.6041 8.99984C31.6041 9.44186 31.3791 9.86579 30.9787 10.1783C30.5782 10.4909 30.0351 10.6665 29.4687 10.6665C28.9024 10.6665 28.3592 10.4909 27.9587 10.1783C27.5583 9.86579 27.3333 9.44186 27.3333 8.99984C27.3333 8.55781 27.5583 8.13389 27.9587 7.82133C28.3592 7.50877 28.9024 7.33317 29.4687 7.33317ZM20.5 9.33317C22.7653 9.33317 24.938 10.0355 26.5398 11.2858C28.1417 12.536 29.0416 14.2317 29.0416 15.9998C29.0416 17.7679 28.1417 19.4636 26.5398 20.7139C24.938 21.9641 22.7653 22.6665 20.5 22.6665C18.2346 22.6665 16.062 21.9641 14.4601 20.7139C12.8582 19.4636 11.9583 17.7679 11.9583 15.9998C11.9583 14.2317 12.8582 12.536 14.4601 11.2858C16.062 10.0355 18.2346 9.33317 20.5 9.33317ZM20.5 11.9998C19.1407 11.9998 17.8372 12.4213 16.876 13.1714C15.9149 13.9216 15.375 14.939 15.375 15.9998C15.375 17.0607 15.9149 18.0781 16.876 18.8283C17.8372 19.5784 19.1407 19.9998 20.5 19.9998C21.8592 19.9998 23.1628 19.5784 24.1239 18.8283C25.085 18.0781 25.625 17.0607 25.625 15.9998C25.625 14.939 25.085 13.9216 24.1239 13.1714C23.1628 12.4213 21.8592 11.9998 20.5 11.9998Z" fill="#F8F8F8"/>
+                </g>
+                </svg></a>
+
+                <a href="https://x.com/namsdiaries?t=nvb1XEjpom_N52WizYPzCw&s=08" ><svg width="30" height="20" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="akar-icons:x-fill">
+                  <path id="Vector" d="M21.8627 12.6499L33.06 2.4165H30.4064L20.6815 11.3014L12.9169 2.4165H3.95837L15.7035 15.8532L3.95837 26.5832H6.61204L16.8815 17.2005L25.0832 26.5832H34.0417L21.8627 12.6499ZM18.2274 15.9704L17.0367 14.6328L7.56837 3.98734H11.6455L19.2866 12.5786L20.4757 13.9162L30.408 25.0836H26.3325L18.2274 15.9704Z" fill="#F8F8F8"/>
+                  </g>
+                  </svg></a>
+              </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
